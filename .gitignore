@@ -1,0 +1,18 @@
+# 编译中间文件
+*.o
+*.obj
+*.exe
+moc_*.cpp
+ui_*.h
+Makefile
+Makefile.Debug
+Makefile.Release
+.qmake.stash
+
+# 编译输出目录
+build-*/
+debug/
+release/
+
+# Qt Creator
+*.pro.user
